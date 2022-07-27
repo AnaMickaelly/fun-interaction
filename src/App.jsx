@@ -1,5 +1,15 @@
-function App() {
-  return <h1>hello world</h1>;
-}
+import { Post } from './Post';
 
-export default App;
+export function App() {
+  return (
+    <div>
+      <Post
+        author="Ana Mickaelly"
+        content="lordjadnasdjndgfvd asdkjasdnas asdhasjd banana"
+      />
+      <Post author="Juan Pablo" content="banana pc sla oque" />
+      <Post />
+      <Post />
+    </div>
+  );
+}
