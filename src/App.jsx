@@ -1,15 +1,23 @@
+import styles from './App.module.css';
+import { Header } from './components/Header/Header';
+import { Sidebar } from './components/Sidebar/Sidebar';
+import './global.css';
 import { Post } from './Post';
 
 export function App() {
   return (
     <div>
-      <Post
-        author="Ana Mickaelly"
-        content="lordjadnasdjndgfvd asdkjasdnas asdhasjd banana"
-      />
-      <Post author="Juan Pablo" content="banana pc sla oque" />
-      <Post />
-      <Post />
+      <Header />
+      <div className={styles.wrapper}>
+        <Sidebar />
+        <main>
+          <Post
+            author="Ana Mickaelly"
+            content="lordjadnasdjndgfvd asdkjasdnas asdhasjd banana"
+          />
+          <Post author="Juan Pablo" content="banana pc sla oque" />
+        </main>
+      </div>
     </div>
   );
 }
