@@ -1,5 +1,5 @@
 .Post {
-  background: var(--gray-800);
+  background: #ba5a31;
   border-radius: 8px;
   padding: 2.5rem;
 }
@@ -17,12 +17,12 @@
 }
 .content a {
   font-weight: bold;
-  color: var(--green-500);
+  color: #69dc9e;
   text-decoration: none;
 }
 
 .content a:hover {
-  color: var(--green-300);
+  color: #69dc9e;
 }
 
 .Post > header {
@@ -48,7 +48,7 @@
   height: calc(3rem + 12px);
   border-radius: 8px;
   border: 4px solid var(--gray-800);
-  outline: 2px solid var(--green-500);
+  outline: 2px solid #69dc9e;
 }
 .authorInfo strong {
   display: block;
@@ -68,13 +68,15 @@
   padding-top: 1.5rem;
   border-top: 1px solid var(--gray-600);
 }
+
 .commentForm > strong {
   line-height: 1.6;
   color: var(--gray-100);
 }
+
 .commentForm textarea {
   width: 100%;
-  background: var(--gray-900);
+  background: #e59f71;
   border: 0;
   resize: none;
   height: 6rem;
@@ -85,26 +87,17 @@
   margin-top: 1rem;
 }
 
-.commentForm footer {
-  visibility: hidden;
-  max-height: 0;
-}
-
-.commentForm :focus-within footer {
-  visibility: visible;
-  max-height: none;
-}
 .commentForm button[type='submit'] {
   padding: 1rem 1.5rem;
   margin-top: 1rem;
   border-radius: 8px;
   border: 0;
-  background: var(--green-500);
+  background: #69dc9e;
   font-weight: bold;
   cursor: pointer;
 
   transition: background-color 0.1s;
 }
-.commentForm button[type='submit']:hover {
-  background: var(--green-300);
+.commentFormbutton[type='submit']:hover {
+  background: #404944;
 }

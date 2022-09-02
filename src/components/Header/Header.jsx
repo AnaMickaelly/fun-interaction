@@ -1,4 +1,4 @@
-import funLogo from '../../assets/images/fun-logo.svg';
+import funLogo from '../../assets/images/fun-logo.png';
 import styles from './Header.module.css';
 
 export function Header() {

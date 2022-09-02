@@ -1,5 +1,6 @@
 .Sidebar {
-  background: var(--gray-800);
+  background: #ba5a31;
+
   border-radius: 8px;
   overflow: hidden;
 }
@@ -23,7 +24,7 @@
   height: calc(3rem + 12px);
   border-radius: 8px;
   border: 4px solid var(--gray-800);
-  outline: 2px solid var(--green-500);
+  outline: 2px solid #69dc9e;
 }
 
 .profile strong {
@@ -46,8 +47,8 @@
 
 .Sidebar footer a {
   background: transparent;
-  color: var(--green-500);
-  border: 1px solid var(--green-500);
+  color: #69dc9e;
+  border: 1px solid #69dc9e;
   border-radius: 8px;
   height: 50px;
   padding: 0 1.5rem;
@@ -65,6 +66,6 @@
 }
 
 .Sidebar footer a:hover {
-  background: var(--green-500);
+  background: #69dc9e;
   color: var(--white);
 }
